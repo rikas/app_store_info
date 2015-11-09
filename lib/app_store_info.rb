@@ -1,6 +1,7 @@
 require 'app_store_info/version'
 require 'app_store_info/api'
 require 'app_store_info/app'
+require 'app_store_info/regions'
 
 module AppStoreInfo
   DEFAULT_REGION = 'us'
@@ -8,7 +9,7 @@ module AppStoreInfo
   def self.read(id, region = DEFAULT_REGION)
     # The region can be wrong because of the multiple app store formats (and our way of  getting) it
     # from the URL. If that's the case then just fallback to 'us'.
-    region = DEFAULT_REGION if %(app en WebObjects).include?(region)
+    region = DEFAULT_REGION unless Regions.find(region)
 
     json = AppStoreInfo::API.new(id, region).parse
 
