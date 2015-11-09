@@ -1,3 +1,4 @@
+# coding: utf-8
 module AppStoreInfo
   class Regions
     # All the available regions (taken from https://developer.apple.com/library/ios/documentation/
