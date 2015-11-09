@@ -1,4 +1,5 @@
 require 'app_store_info/json_accessors'
+require 'ostruct'
 
 module AppStoreInfo
   class App
