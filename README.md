@@ -60,6 +60,14 @@ current_version.number              # => "5.2.0"
 current_version.release_notes       # => "We popped some pesky bugs!"
 ```
 
+If you need to get the genre names there's an helper method for that:
+```ruby
+app.genre_names # => ["Games", "Action", "Arcade", "Entertainment"]
+```
+
+Keep in mind that the information can be localized if you request for a particular region
+information. Ratings, currency, price etc. can change.
+
 
 ## Development
 

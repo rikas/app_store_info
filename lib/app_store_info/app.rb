@@ -26,7 +26,7 @@ module AppStoreInfo
     end
 
     def genre_names
-      @genre_ids.map { |genre| GENRES[genre.to_i] }
+      @genre_ids.map { |genre| AppStoreInfo::GENRES[genre.to_i] }
     end
 
     def store_icon_url

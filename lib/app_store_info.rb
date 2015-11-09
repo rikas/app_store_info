@@ -2,6 +2,7 @@ require 'app_store_info/version'
 require 'app_store_info/api'
 require 'app_store_info/app'
 require 'app_store_info/regions'
+require 'app_store_info/genres'
 
 module AppStoreInfo
   DEFAULT_REGION = 'us'
