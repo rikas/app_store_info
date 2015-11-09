@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rikas/app_store_info.svg)](https://travis-ci.org/rikas/app_store_info)
+
 # AppStoreInfo
 
 ## Installation
