@@ -1,0 +1,57 @@
+{
+  "ipadScreenshotUrls": [
+    "http://ipadscreen1.jpeg",
+    "http://ipadscreen2.jpeg"
+  ],
+
+  "isGameCenterEnabled": false,
+  "artworkUrl60": "http://artwork1.jpg",
+  "artworkUrl512": "http://artwork2.jpg",
+  "artistViewUrl": "https://artwork3.jpg",
+
+  "screenshotUrls": [
+    "http://screenshot1.jpeg",
+    "http://screenshot2.jpeg"
+  ],
+
+  "kind": "software",
+  "features": ["iosUniversal"],
+
+  "supportedDevices": [
+    "iPad2Wifi","iPad23G","iPhone4S","iPadThirdGen","iPadThirdGen4G","iPhone5","iPodTouchFifthGen",
+    "iPadFourthGen","iPadFourthGen4G","iPadMini","iPadMini4G","iPhone5c","iPhone5s","iPhone6",
+    "iPhone6Plus","iPodTouchSixthGen"
+  ],
+
+  "advisories": [],
+  "sellerUrl": "http://universal.com",
+  "contentAdvisoryRating": "4+",
+  "trackViewUrl": "https://itunes.apple.com/us/app/foursquare-find-places-to/id306934924?mt=8&uo=4",
+  "trackCensoredName": "Universal app",
+  "languageCodesISO2A": ["CA","EN","FR","DE","ID","IT","JA","KO","PT","RU","ES","TH","TR"],
+  "averageUserRatingForCurrentVersion": 4.5,
+  "userRatingCountForCurrentVersion": 53,
+  "trackContentRating": "4+",
+  "fileSizeBytes": "26039200",
+  "currency": "USD",
+  "wrapperType": "software",
+  "version": "9.7",
+  "releaseDate": "2009-03-27T01:45:24Z",
+  "sellerName": "Foursquare Labs, Inc.",
+  "genreIds": ["6023","6003"],
+  "artistId": 293619800,
+  "artistName": "Universal apps, Inc.",
+  "genres": ["Food & Drink","Travel"],
+  "price": 2.0,
+  "description": "The app description",
+  "trackId": 306934924,
+  "trackName": "Foursquare",
+  "primaryGenreName": "Food & Drink",
+  "primaryGenreId": 6023,
+  "isVppDeviceBasedLicensingEnabled": true,
+  "minimumOsVersion": "8.0",
+  "formattedPrice": "Free",
+  "averageUserRating": 4.0,
+  "userRatingCount": 93200,
+  "releaseNotes": "Bug fix"
+}
