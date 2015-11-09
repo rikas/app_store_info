@@ -2,6 +2,10 @@
 
 # AppStoreInfo
 
+Get details about any app in the Apple App Store. This gem uses iTunes lookup method to get information about apps. (i.e. https://itunes.apple.com/us/lookup?id=343200656).
+
+Compatible with >= 1.9.3.
+
 ## Installation
 
 Add this line to your application's Gemfile:
