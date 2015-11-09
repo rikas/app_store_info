@@ -76,7 +76,7 @@ describe AppStoreInfo do
 
         expect(response.id).to eq(975_333_802)
         expect(response.name).to eq('ZAPS - Share Videos by Location')
-        expect(response.domain).to eq('http://idtapth.at')
+        expect(response.url).to eq('http://idtapth.at')
       end
     end
 
@@ -86,7 +86,7 @@ describe AppStoreInfo do
 
         expect(response.id).to eq(625_257_520)
         expect(response.name).to eq('Hearthstone: Heroes of Warcraft')
-        expect(response.domain).to eq('http://us.battle.net/hearthstone/en/')
+        expect(response.url).to eq('http://us.battle.net/hearthstone/en/')
       end
     end
 
@@ -96,7 +96,7 @@ describe AppStoreInfo do
 
         expect(response.id).to eq(343_200_656)
         expect(response.name).to eq('Angry Birds')
-        expect(response.domain).to eq('http://www.angrybirds.com/')
+        expect(response.url).to eq('http://www.angrybirds.com/')
       end
     end
 
@@ -106,7 +106,7 @@ describe AppStoreInfo do
 
         expect(response.id).to eq(343_200_656)
         expect(response.name).to eq('Angry Birds')
-        expect(response.domain).to eq('http://www.angrybirds.com/')
+        expect(response.url).to eq('http://www.angrybirds.com/')
       end
     end
 
@@ -116,7 +116,7 @@ describe AppStoreInfo do
 
         expect(response.id).to eq(918_079_650)
         expect(response.name).to eq('Coacher - Soccer Coaching Software')
-        expect(response.domain).to eq('http://www.joincoacher.com')
+        expect(response.url).to eq('http://www.joincoacher.com')
       end
     end
 
@@ -126,7 +126,7 @@ describe AppStoreInfo do
 
         expect(response.id).to eq(940_393_916)
         expect(response.name).to eq('Flooz - Paiement entre amis gratuit fun et securisé France')
-        expect(response.domain).to eq('https://www.flooz.me')
+        expect(response.url).to eq('https://www.flooz.me')
         expect(response.currency).to eq('EUR')
       end
     end
@@ -137,7 +137,7 @@ describe AppStoreInfo do
 
         expect(response.id).to eq(987_860_898)
         expect(response.name).to eq('Loisirs Enchères')
-        expect(response.domain).to eq('http://www.loisirsencheres.com/content/merchant')
+        expect(response.url).to eq('http://www.loisirsencheres.com/content/merchant')
         expect(response.currency).to eq('USD')
       end
     end

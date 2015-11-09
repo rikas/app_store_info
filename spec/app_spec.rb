@@ -9,7 +9,7 @@ describe App do
     it 'reads the parameters correctly' do
       expect(universal.id).to eq(306934924)
       expect(universal.name).to eq('Universal app')
-      expect(universal.domain).to eq('http://universal.com')
+      expect(universal.url).to eq('http://universal.com')
       expect(universal.average_user_rating).to eq(4.0)
       expect(universal.user_rating_count).to eq(93200)
       expect(universal.genre_ids).to include('6023', '6003')
@@ -54,7 +54,7 @@ describe App do
     it 'reads the parameters correctly' do
       expect(iphone.id).to eq(284708449)
       expect(iphone.name).to eq('Urbanspoon')
-      expect(iphone.domain).to eq('http://www.zomato.com/mobile')
+      expect(iphone.url).to eq('http://www.zomato.com/mobile')
       expect(iphone.average_user_rating).to eq(3.5)
       expect(iphone.user_rating_count).to eq(236824)
       expect(iphone.genre_ids).to include('6023', '6003')
@@ -99,7 +99,7 @@ describe App do
     it 'reads the parameters correctly' do
       expect(ipad.id).to eq(918079650)
       expect(ipad.name).to eq('iPad app')
-      expect(ipad.domain).to eq('http://www.joinipad.com')
+      expect(ipad.url).to eq('http://www.joinipad.com')
       expect(ipad.average_user_rating).to eq(3.5)
       expect(ipad.user_rating_count).to eq(14)
       expect(ipad.genre_ids).to include('6004', '6002')

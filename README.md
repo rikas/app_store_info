@@ -31,7 +31,7 @@ Then you have some attributes that can be read easily:
 ```ruby
 app.id                  # => 343200656
 app.name                # => "Angry Birds"
-app.domain              # => "http://www.angrybirds.com/"
+app.url                 # => "http://www.angrybirds.com/"
 app.average_user_rating # => 4.5
 app.user_rating_count   # => 222131
 app.genre_ids           # => ["6014", "7003", "6016", "7001"]

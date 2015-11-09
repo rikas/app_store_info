@@ -6,7 +6,7 @@ module AppStoreInfo
 
     attr_reader :current_version
 
-    json_accessors id: 'trackId', name: 'trackCensoredName', domain: 'sellerUrl',
+    json_accessors id: 'trackId', name: 'trackCensoredName', url: 'sellerUrl',
                    average_user_rating: 'averageUserRating', user_rating_count: 'userRatingCount',
                    genre_ids: 'genreIds', price: 'price', currency: 'currency',
                    supported_devices: 'supportedDevices', company: 'artistName',
