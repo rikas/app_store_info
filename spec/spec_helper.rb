@@ -5,6 +5,8 @@ require 'faraday'
 require 'webmock/rspec'
 require 'app_store_info'
 
+include AppStoreInfo
+
 WebMock.disable_net_connect!(allow_localhost: true)
 
 VCR.configure do |config|

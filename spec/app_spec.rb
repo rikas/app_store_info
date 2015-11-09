@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe AppStoreInfo::App do
+describe App do
   let(:universal) { described_class.new(json_read('universal.json')) }
   let(:ipad) { described_class.new(json_read('ipad.json')) }
-  let(:iphone) { described_class.new(json_read('iphone.json'))  }
+  let(:iphone) { described_class.new(json_read('iphone.json')) }
 
   context 'iOS Universal app' do
     it 'reads the parameters correctly' do
@@ -15,7 +15,8 @@ describe AppStoreInfo::App do
       expect(universal.genre_ids).to include('6023', '6003')
       expect(universal.price).to eq(2.0)
       expect(universal.currency).to eq('USD')
-      expect(universal.supported_devices).to include('iPad2Wifi', 'iPad23G', 'iPhone4S',
+      expect(universal.supported_devices).to include(
+        'iPad2Wifi', 'iPad23G', 'iPhone4S',
         'iPadThirdGen', 'iPadThirdGen4G', 'iPhone5', 'iPodTouchFifthGen', 'iPadFourthGen',
         'iPadFourthGen4G', 'iPadMini', 'iPadMini4G', 'iPhone5c', 'iPhone5s', 'iPhone6',
         'iPhone6Plus', 'iPodTouchSixthGen')
@@ -42,7 +43,7 @@ describe AppStoreInfo::App do
       end
     end
 
-    describe "#store_icon_url" do
+    describe '#store_icon_url' do
       it 'returns the correct icon' do
         expect(universal.store_icon_url).to eq('http://artwork2.jpg')
       end
@@ -59,7 +60,8 @@ describe AppStoreInfo::App do
       expect(iphone.genre_ids).to include('6023', '6003')
       expect(iphone.price).to eq(0.0)
       expect(iphone.currency).to eq('USD')
-      expect(iphone.supported_devices).to include('iPad2Wifi', 'iPad23G', 'iPhone4S',
+      expect(iphone.supported_devices).to include(
+        'iPad2Wifi', 'iPad23G', 'iPhone4S',
         'iPadThirdGen', 'iPadThirdGen4G', 'iPhone5', 'iPodTouchFifthGen', 'iPadFourthGen',
         'iPadFourthGen4G', 'iPadMini', 'iPadMini4G', 'iPhone5c', 'iPhone5s', 'iPhone6',
         'iPhone6Plus', 'iPodTouchSixthGen')
@@ -86,7 +88,7 @@ describe AppStoreInfo::App do
       end
     end
 
-    describe "#store_icon_url" do
+    describe '#store_icon_url' do
       it 'returns the correct icon' do
         expect(universal.store_icon_url).to eq('http://artwork2.jpg')
       end
@@ -103,7 +105,8 @@ describe AppStoreInfo::App do
       expect(ipad.genre_ids).to include('6004', '6002')
       expect(ipad.price).to eq(0.0)
       expect(ipad.currency).to eq('EUR')
-      expect(ipad.supported_devices).to include('iPad2Wifi', 'iPad23G', 'iPadThirdGen',
+      expect(ipad.supported_devices).to include(
+        'iPad2Wifi', 'iPad23G', 'iPadThirdGen',
         'iPadThirdGen4G', 'iPadFourthGen', 'iPadFourthGen4G', 'iPadMini', 'iPadMini4G')
       expect(ipad.company).to eq('iPad apps LTD')
       expect(ipad.description).to eq('My super iPad app!')
@@ -128,7 +131,7 @@ describe AppStoreInfo::App do
       end
     end
 
-    describe "#store_icon_url" do
+    describe '#store_icon_url' do
       it 'returns the correct icon' do
         expect(universal.store_icon_url).to eq('http://artwork2.jpg')
       end
