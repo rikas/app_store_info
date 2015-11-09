@@ -1,9 +1,5 @@
 # AppStoreInfo
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/app_store_info`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,7 +18,48 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You first have to read the app details, using the store URL or directly with the ID:
+
+```ruby
+app = AppStoreInfo.read_url('https://itunes.apple.com/gb/app/angry-birds/id343200656?mt=8')
+app = AppStoreInfo.read(343200656)
+app = AppStoreInfo.read(343200656, 'gb') # You can give a particular region or it will use 'us'
+```
+
+Then you have some attributes that can be read easily:
+
+```ruby
+app.id                  # => 343200656
+app.name                # => "Angry Birds"
+app.domain              # => "http://www.angrybirds.com/"
+app.average_user_rating # => 4.5
+app.user_rating_count   # => 222131
+app.genre_ids           # => ["6014", "7003", "6016", "7001"]
+app.price               # => 0.79
+app.currency            # => "GBP"
+app.supported_devices   # => ["iPhone-3GS", "iPhone4", "iPodTouchFourthGen", ...]
+app.company             # => "Rovio Entertainment Ltd"
+app.description         # => "Use the unique powers of the Angry Birds to destroy ...
+app.minimum_os_version  # => "6.0"
+app.features            # => ["gameCenter"]
+```
+
+You can also check if the app is Universal:
+
+```ruby
+app.universal? # => false
+```
+
+Last, you can check the details about the latest version of the app:
+```ruby
+current_version = app.current_version
+
+current_version.average_user_rating # => 4.0
+current_version.user_rating_count   # => 191
+current_version.number              # => "5.2.0"
+current_version.release_notes       # => "We popped some pesky bugs!"
+```
+
 
 ## Development
 
@@ -32,10 +69,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/app_store_info.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rikas/app_store_info.
 
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
