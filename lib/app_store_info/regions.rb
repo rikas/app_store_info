@@ -22,7 +22,7 @@ module AppStoreInfo
       'IS' => 'Iceland', 'IT' => 'Italy', 'JM' => 'Jamaica', 'JO' => 'Jordan', 'JP' => 'Japan',
       'KE' => 'Kenya', 'KG' => 'Kyrgyzstan', 'KH' => 'Cambodia', 'KN' => 'St. Kitts and Nevis',
       'KR' => 'Republic Of Korea', 'KW' => 'Kuwait', 'KY' => 'Cayman Islands',
-      'KZ' => 'Kazakstan', 'LA' => 'Lao People’s Democratic Republic', 'LB' => 'Lebanon',
+      'KZ' => 'Kazakstan', 'LA' => "Lao People's Democratic Republic", 'LB' => 'Lebanon',
       'LC' => 'St. Lucia', 'LK' => 'Sri Lanka', 'LR' => 'Liberia', 'LT' => 'Lithuania',
       'LU' => 'Luxembourg', 'LV' => 'Latvia', 'MD' => 'Republic Of Moldova', 'MG' => 'Madagascar',
       'MK' => 'Macedonia', 'ML' => 'Mali', 'MN' => 'Mongolia', 'MO' => 'Macau',
