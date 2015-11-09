@@ -24,7 +24,10 @@ describe AppStoreInfo do
   describe '.read' do
     it 'raises error if the app is not available on a particular region' do
       VCR.use_cassette('flooz_wrong_region') do
-        response = described_class.read_url(flooz_wrong_region)
+        message = "App not found or unavailable on 'pt' region"
+        expect do
+          described_class.read_url(flooz_wrong_region)
+        end.to raise_error(AppStoreInfo::EntryNotFound, message)
       end
     end
   end
