@@ -158,7 +158,7 @@ module AppStoreInfo
       'YE' => 'Yemen',
       'ZA' => 'South Africa',
       'ZW' => 'Zimbabwe'
-    }
+    }.freeze
 
     def self.find(region)
       REGIONS[region.upcase]
