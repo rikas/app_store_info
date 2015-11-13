@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/rikas/app_store_info.svg)](https://travis-ci.org/rikas/app_store_info)
+[![Build Status](https://travis-ci.org/rikas/app_store_info.svg)](https://travis-ci.org/rikas/app_store_info) [![Dependency Status](https://gemnasium.com/rikas/app_store_info.svg)](https://gemnasium.com/rikas/app_store_info)
 
 # AppStoreInfo
 
