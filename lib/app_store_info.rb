@@ -28,9 +28,11 @@ module AppStoreInfo
     read(id, region)
   end
 
-  class EntryNotFound < StandardError; end
+  class GenericError < StandardError; end
 
-  class ConnectionError < StandardError; end
+  class EntryNotFound < GenericError; end
 
-  class ParseError < StandardError; end
+  class ConnectionError < GenericError; end
+
+  class ParseError < GenericError; end
 end
