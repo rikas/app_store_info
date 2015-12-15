@@ -24,6 +24,7 @@ describe App do
       expect(universal.description).to eq('The app description')
       expect(universal.minimum_os_version).to eq('8.0')
       expect(universal.features).to eq(['iosUniversal'])
+      expect(universal.languages).to eq(%w(CA EN FR DE ID IT JA KO PT RU ES TH TR))
     end
 
     it 'reads the current version parameters correctly' do
@@ -69,6 +70,7 @@ describe App do
       expect(iphone.description).to eq('Urbanspoon (by Zomato) for iPhone is the #1 FREE app.')
       expect(iphone.minimum_os_version).to eq('6.0')
       expect(iphone.features).to eq([])
+      expect(iphone.languages).to eq(['EN'])
     end
 
     it 'reads the current version parameters correctly' do
@@ -112,6 +114,7 @@ describe App do
       expect(ipad.description).to eq('My super iPad app!')
       expect(ipad.minimum_os_version).to eq('7.0')
       expect(ipad.features).to eq([])
+      expect(ipad.languages).to eq(['EN', 'PT', 'ES'])
     end
 
     it 'reads the current version parameters correctly' do
