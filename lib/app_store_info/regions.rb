@@ -63,17 +63,25 @@ module AppStoreInfo
     }.freeze
 
     REGIONS = {
-      'Europe' => %w(AL AT BY BE BG HR CY CZ DK EE FI FR DE GR HU IS IE IT LV LT LU MK MT MD NL NO
-        PL PT RO RU SK SI ES SE CH TR UA GB),
+      'Europe' => %w(
+        AL AT BY BE BG HR CY CZ DK EE FI FR DE GR HU IS IE IT LV LT LU MK MT MD NL NO PL PT RO RU
+        SK SI ES SE CH TR UA GB
+      ),
 
-      'Africa, Middle East, and India' => %w(DZ AO AM AZ BH BJ BW BF CV TD CG EG GM GH GW IN IL JO
-        KE KW LB LR MG MW ML MR MU MZ NA NE NG OM QA SA SN SC SL ZA SZ ST TZ TN UG AE YE ZW),
+      'Africa, Middle East, and India' => %w(
+        DZ AO AM AZ BH BJ BW BF CV TD CG EG GM GH GW IN IL JO KE KW LB LR MG MW ML MR MU MZ NA NE
+        NG OM QA SA SN SC SL ZA SZ ST TZ TN UG AE YE ZW
+      ),
 
-      'Latin America and the Caribbean' => %w(AI AG AR BS BB BZ BM BO BR KY CL CO CR DM DO EC SV GD
-        GT GY HN JM MX MS NI PA PY PE LC KN VC SR TT TC UY VE VG),
+      'Latin America and the Caribbean' => %w(
+        AI AG AR BS BB BZ BM BO BR KY CL CO CR DM DO EC SV GD GT GY HN JM MX MS NI PA PY PE LC KN
+        VC SR TT TC UY VE VG
+      ),
 
-      'Asia Pacific' => %w(AU BT BN KH CN FJ HK ID JP KZ KR KG LA MO MY FM MN NP NZ PK PW PG PH SG
-        SB LK TW TJ TH TM UZ VN),
+      'Asia Pacific' => %w(
+        AU BT BN KH CN FJ HK ID JP KZ KR KG LA MO MY FM MN NP NZ PK PW PG PH SG SB LK TW TJ TH TM
+        UZ VN
+      ),
 
       'The United States and Canada' => %w(CA US)
     }
