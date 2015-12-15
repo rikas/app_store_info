@@ -35,7 +35,7 @@ describe AppStoreInfo do
 
   describe '.read_url' do
     it 'fails if the url is not from Apple Store with ArgumentError' do
-      expect { described_class.read_url(bad) }.to raise_error(ArgumentError)
+      expect { described_class.read_url(bad) }.to raise_error(AppStoreInfo::InvalidURLError)
     end
 
     it 'fails if the url is offline with ConnectionError' do

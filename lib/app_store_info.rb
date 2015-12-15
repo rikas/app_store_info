@@ -20,7 +20,7 @@ module AppStoreInfo
   def self.read_url(url)
     match = url.match(%r{\Ahttps://itunes.apple.com/(\w+)/.+/?id=?([\d]+)})
 
-    fail ArgumentError, 'Invalid App Store URL' unless match
+    fail InvalidURLError, 'Invalid App Store URL' unless match
 
     region = match.captures.first
     id = match.captures.last
@@ -29,6 +29,8 @@ module AppStoreInfo
   end
 
   class GenericError < StandardError; end
+
+  class InvalidURLError < GenericError; end
 
   class EntryNotFound < GenericError; end
 
