@@ -12,7 +12,8 @@ module AppStoreInfo
                    genre_ids: 'genreIds', price: 'price', currency: 'currency',
                    supported_devices: 'supportedDevices', company: 'artistName',
                    description: 'description', minimum_os_version: 'minimumOsVersion',
-                   features: 'features', languages: 'languageCodesISO2A'
+                   features: 'features', languages: 'languageCodesISO2A',
+                   app_store_url: 'trackViewUrl'
 
     def initialize(json)
       read_json_accessors(json)
