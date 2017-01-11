@@ -53,7 +53,7 @@ module AppStoreInfo
       'RU' => 'Russia', 'RW' => 'Rwanda', 'SA' => 'Saudi Arabia', 'SB' => 'Solomon Islands',
       'SC' => 'Seychelles', 'SE' => 'Sweden', 'SG' => 'Singapore',
       'SI' => 'Slovenia', 'SK' => 'Slovakia', 'SL' => 'Sierra Leone',
-      'SN' => 'Senegal', 'SR' => 'Suriname', 'SS' => 'South Sudan'
+      'SN' => 'Senegal', 'SR' => 'Suriname', 'SS' => 'South Sudan',
       'ST' => 'Sao Tome and Principe', 'SV' => 'El Salvador', 'SZ' => 'Swaziland',
       'TC' => 'Turks and Caicos', 'TD' => 'Chad', 'TH' => 'Thailand', 'TJ' => 'Tajikistan',
       'TM' => 'Turkmenistan', 'TN' => 'Tunisia', 'TR' => 'Turkey', 'TT' => 'Trinidad and Tobago',
@@ -71,8 +71,8 @@ module AppStoreInfo
       ),
 
       'Africa, Middle East, and India' => %w(
-        DZ AO AM AZ BH BJ BW BF CM CV TD CG EG ET GM GH GW IN IL JO KE KW LB LS LR MG MW ML MR MU MZ NA NE
-        NG OM QA RW SA SN SC SS SL ZA SZ ST TZ TN UG AE YE ZM ZW
+        DZ AO AM AZ BH BJ BW BF CM CV TD CG EG ET GM GH GW IN IL JO KE KW LB LS LR MG MW ML MR MU
+        MZ NA NE NG OM QA RW SA SN SC SS SL ZA SZ ST TZ TN UG AE YE ZM ZW
       ),
 
       'Latin America and the Caribbean' => %w(
