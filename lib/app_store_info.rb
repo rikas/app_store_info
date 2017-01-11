@@ -5,7 +5,7 @@ require 'app_store_info/regions'
 require 'app_store_info/genres'
 
 module AppStoreInfo
-  DEFAULT_REGION = 'us'
+  DEFAULT_REGION = 'us'.freeze
 
   def self.read(id, region = DEFAULT_REGION)
     # The region can be wrong because of the multiple app store formats (and our way of  getting) it
@@ -20,7 +20,7 @@ module AppStoreInfo
   def self.read_url(url)
     match = url.match(%r{\Ahttps://itunes.apple.com/(\w+)/.+/?id=?([\d]+)})
 
-    fail InvalidURLError, 'Invalid App Store URL' unless match
+    raise InvalidURLError, 'Invalid App Store URL' unless match
 
     region = match.captures.first
     id = match.captures.last

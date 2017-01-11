@@ -19,7 +19,8 @@ describe App do
         'iPad2Wifi', 'iPad23G', 'iPhone4S',
         'iPadThirdGen', 'iPadThirdGen4G', 'iPhone5', 'iPodTouchFifthGen', 'iPadFourthGen',
         'iPadFourthGen4G', 'iPadMini', 'iPadMini4G', 'iPhone5c', 'iPhone5s', 'iPhone6',
-        'iPhone6Plus', 'iPodTouchSixthGen')
+        'iPhone6Plus', 'iPodTouchSixthGen'
+      )
       expect(universal.company).to eq('Universal apps, Inc.')
       expect(universal.description).to eq('The app description')
       expect(universal.minimum_os_version).to eq('8.0')
@@ -28,7 +29,7 @@ describe App do
     end
 
     it 'reads the current version parameters correctly' do
-      expect(universal.current_version).to_not be_nil
+      expect(universal.current_version).not_to be_nil
 
       current = universal.current_version
 
@@ -65,7 +66,8 @@ describe App do
         'iPad2Wifi', 'iPad23G', 'iPhone4S',
         'iPadThirdGen', 'iPadThirdGen4G', 'iPhone5', 'iPodTouchFifthGen', 'iPadFourthGen',
         'iPadFourthGen4G', 'iPadMini', 'iPadMini4G', 'iPhone5c', 'iPhone5s', 'iPhone6',
-        'iPhone6Plus', 'iPodTouchSixthGen')
+        'iPhone6Plus', 'iPodTouchSixthGen'
+      )
       expect(iphone.company).to eq('Zomato Media Pvt. Ltd.')
       expect(iphone.description).to eq('Urbanspoon (by Zomato) for iPhone is the #1 FREE app.')
       expect(iphone.minimum_os_version).to eq('6.0')
@@ -74,7 +76,7 @@ describe App do
     end
 
     it 'reads the current version parameters correctly' do
-      expect(iphone.current_version).to_not be_nil
+      expect(iphone.current_version).not_to be_nil
 
       current = iphone.current_version
 
@@ -109,16 +111,17 @@ describe App do
       expect(ipad.currency).to eq('EUR')
       expect(ipad.supported_devices).to include(
         'iPad2Wifi', 'iPad23G', 'iPadThirdGen',
-        'iPadThirdGen4G', 'iPadFourthGen', 'iPadFourthGen4G', 'iPadMini', 'iPadMini4G')
+        'iPadThirdGen4G', 'iPadFourthGen', 'iPadFourthGen4G', 'iPadMini', 'iPadMini4G'
+      )
       expect(ipad.company).to eq('iPad apps LTD')
       expect(ipad.description).to eq('My super iPad app!')
       expect(ipad.minimum_os_version).to eq('7.0')
       expect(ipad.features).to eq([])
-      expect(ipad.languages).to eq(['EN', 'PT', 'ES'])
+      expect(ipad.languages).to eq(%w(EN PT ES))
     end
 
     it 'reads the current version parameters correctly' do
-      expect(ipad.current_version).to_not be_nil
+      expect(ipad.current_version).not_to be_nil
 
       current = ipad.current_version
 

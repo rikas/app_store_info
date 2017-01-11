@@ -84,7 +84,7 @@ module AppStoreInfo
       ),
 
       'The United States and Canada' => %w(CA US)
-    }
+    }.freeze
 
     # Find a territory by code.
     #

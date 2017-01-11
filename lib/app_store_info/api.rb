@@ -19,7 +19,7 @@ module AppStoreInfo
       response = Faraday.get(url)
 
       unless response.status == 200 && response.body
-        fail ConnectionError, "Cound't connect to app store API"
+        raise ConnectionError, "Cound't connect to app store API"
       end
 
       parse_json(response.body)
@@ -30,13 +30,13 @@ module AppStoreInfo
     def parse_json(body)
       json = JSON.parse(body)
 
-      fail EntryNotFound, 'No results' unless json.key?('results')
+      raise EntryNotFound, 'No results' unless json.key?('results')
 
       json = json['results'].first
 
       # If the JSON exists and it's a mobile app (to avoid OS X apps)
       unless json && json['supportedDevices']
-        fail EntryNotFound, "App not found or unavailable on '#{@region}' region"
+        raise EntryNotFound, "App not found or unavailable on '#{@region}' region"
       end
 
       json
