@@ -26,32 +26,34 @@ module AppStoreInfo
       'BG' => 'Bulgaria', 'BH' => 'Bahrain', 'BJ' => 'Benin', 'BM' => 'Bermuda',
       'BN' => 'Brunei Darussalam', 'BO' => 'Bolivia', 'BR' => 'Brazil', 'BS' => 'Bahamas',
       'BT' => 'Bhutan', 'BW' => 'Botswana', 'BY' => 'Belarus', 'BZ' => 'Belize', 'CA' => 'Canada',
-      'CG' => 'Republic Of Congo', 'CH' => 'Switzerland', 'CL' => 'Chile', 'CN' => 'China',
-      'CO' => 'Colombia', 'CR' => 'Costa Rica', 'CV' => 'Cape Verde', 'CY' => 'Cyprus',
-      'CZ' => 'Czech Republic', 'DE' => 'Germany', 'DK' => 'Denmark', 'DM' => 'Dominica',
-      'DO' => 'Dominican Republic', 'DZ' => 'Algeria', 'EC' => 'Ecuador', 'EE' => 'Estonia',
-      'EG' => 'Egypt', 'ES' => 'Spain', 'FI' => 'Finland', 'FJ' => 'Fiji',
-      'FM' => 'Federated States Of Micronesia', 'FR' => 'France', 'GB' => 'United Kingdom',
-      'GD' => 'Grenada', 'GH' => 'Ghana', 'GM' => 'Gambia', 'GR' => 'Greece', 'GT' => 'Guatemala',
-      'GW' => 'Guinea-Bissau', 'GY' => 'Guyana', 'HK' => 'Hong Kong', 'HN' => 'Honduras',
-      'HR' => 'Croatia', 'HU' => 'Hungary', 'ID' => 'Indonesia', 'IE' => 'Ireland',
-      'IL' => 'Israel', 'IN' => 'India', 'IS' => 'Iceland', 'IT' => 'Italy', 'JM' => 'Jamaica',
+      'CG' => 'Republic Of Congo', 'CH' => 'Switzerland', 'CL' => 'Chile', 'CM' => 'Cameroon',
+      'CN' => 'China', 'CO' => 'Colombia', 'CR' => 'Costa Rica', 'CV' => 'Cape Verde',
+      'CY' => 'Cyprus', 'CZ' => 'Czech Republic', 'DE' => 'Germany', 'DK' => 'Denmark',
+      'DM' => 'Dominica', 'DO' => 'Dominican Republic', 'DZ' => 'Algeria', 'EC' => 'Ecuador',
+      'EE' => 'Estonia', 'EG' => 'Egypt', 'ES' => 'Spain', 'ET' => 'Ethiopia', 'FI' => 'Finland',
+      'FJ' => 'Fiji', 'FM' => 'Federated States Of Micronesia', 'FR' => 'France',
+      'GB' => 'United Kingdom', 'GD' => 'Grenada', 'GH' => 'Ghana', 'GM' => 'Gambia',
+      'GR' => 'Greece', 'GT' => 'Guatemala', 'GW' => 'Guinea-Bissau', 'GY' => 'Guyana',
+      'HK' => 'Hong Kong', 'HN' => 'Honduras', 'HR' => 'Croatia', 'HU' => 'Hungary',
+      'ID' => 'Indonesia', 'IE' => 'Ireland', 'IL' => 'Israel', 'IN' => 'India', 'IS' => 'Iceland',
+      'IT' => 'Italy', 'JM' => 'Jamaica',
       'JO' => 'Jordan', 'JP' => 'Japan', 'KE' => 'Kenya', 'KG' => 'Kyrgyzstan', 'KH' => 'Cambodia',
       'KN' => 'St. Kitts and Nevis', 'KR' => 'Republic Of Korea', 'KW' => 'Kuwait',
       'KY' => 'Cayman Islands', 'KZ' => 'Kazakhstan', 'LA' => "Lao People's Democratic Republic",
       'LB' => 'Lebanon', 'LC' => 'Santa Lucia', 'LK' => 'Sri Lanka', 'LR' => 'Liberia',
-      'LT' => 'Lithuania', 'LU' => 'Luxembourg', 'LV' => 'Latvia', 'MD' => 'Republic Of Moldova',
-      'MG' => 'Madagascar', 'MK' => 'Macedonia', 'ML' => 'Mali', 'MN' => 'Mongolia',
-      'MO' => 'Macau', 'MR' => 'Mauritania', 'MS' => 'Montserrat', 'MT' => 'Malta',
-      'MU' => 'Mauritius', 'MW' => 'Malawi', 'MX' => 'Mexico', 'MY' => 'Malaysia',
+      'LS' => 'Lesotho', 'LT' => 'Lithuania', 'LU' => 'Luxembourg', 'LV' => 'Latvia',
+      'MD' => 'Republic Of Moldova', 'MG' => 'Madagascar', 'MK' => 'Macedonia', 'ML' => 'Mali',
+      'MN' => 'Mongolia', 'MO' => 'Macau', 'MR' => 'Mauritania', 'MS' => 'Montserrat',
+      'MT' => 'Malta', 'MU' => 'Mauritius', 'MW' => 'Malawi', 'MX' => 'Mexico', 'MY' => 'Malaysia',
       'MZ' => 'Mozambique', 'NA' => 'Namibia', 'NE' => 'Niger', 'NG' => 'Nigeria',
       'NI' => 'Nicaragua', 'NL' => 'Netherlands', 'NO' => 'Norway', 'NP' => 'Nepal',
       'NZ' => 'New Zealand', 'OM' => 'Oman', 'PA' => 'Panama', 'PE' => 'Peru',
       'PG' => 'Papua New Guinea', 'PH' => 'Philippines', 'PK' => 'Pakistan', 'PL' => 'Poland',
       'PT' => 'Portugal', 'PW' => 'Palau', 'PY' => 'Paraguay', 'QA' => 'Qatar', 'RO' => 'Romania',
-      'RU' => 'Russia', 'SA' => 'Saudi Arabia', 'SB' => 'Solomon Islands', 'SC' => 'Seychelles',
-      'SE' => 'Sweden', 'SG' => 'Singapore', 'SI' => 'Slovenia', 'SK' => 'Slovakia',
-      'SL' => 'Sierra Leone', 'SN' => 'Senegal', 'SR' => 'Suriname',
+      'RU' => 'Russia', 'RW' => 'Rwanda', 'SA' => 'Saudi Arabia', 'SB' => 'Solomon Islands',
+      'SC' => 'Seychelles', 'SE' => 'Sweden', 'SG' => 'Singapore',
+      'SI' => 'Slovenia', 'SK' => 'Slovakia', 'SL' => 'Sierra Leone',
+      'SN' => 'Senegal', 'SR' => 'Suriname', 'SS' => 'South Sudan',
       'ST' => 'Sao Tome and Principe', 'SV' => 'El Salvador', 'SZ' => 'Swaziland',
       'TC' => 'Turks and Caicos', 'TD' => 'Chad', 'TH' => 'Thailand', 'TJ' => 'Tajikistan',
       'TM' => 'Turkmenistan', 'TN' => 'Tunisia', 'TR' => 'Turkey', 'TT' => 'Trinidad and Tobago',
@@ -59,7 +61,7 @@ module AppStoreInfo
       'US' => 'United States', 'UY' => 'Uruguay', 'UZ' => 'Uzbekistan',
       'VC' => 'St. Vincent and The Grenadines', 'VE' => 'Venezuela',
       'VG' => 'British Virgin Islands', 'VN' => 'Vietnam', 'YE' => 'Yemen',
-      'ZA' => 'South Africa', 'ZW' => 'Zimbabwe'
+      'ZA' => 'South Africa', 'ZM' => 'Zambia', 'ZW' => 'Zimbabwe'
     }.freeze
 
     REGIONS = {
@@ -69,8 +71,8 @@ module AppStoreInfo
       ),
 
       'Africa, Middle East, and India' => %w(
-        DZ AO AM AZ BH BJ BW BF CV TD CG EG GM GH GW IN IL JO KE KW LB LR MG MW ML MR MU MZ NA NE
-        NG OM QA SA SN SC SL ZA SZ ST TZ TN UG AE YE ZW
+        DZ AO AM AZ BH BJ BW BF CM CV TD CG EG ET GM GH GW IN IL JO KE KW LB LS LR MG MW ML MR MU
+        MZ NA NE NG OM QA RW SA SN SC SS SL ZA SZ ST TZ TN UG AE YE ZM ZW
       ),
 
       'Latin America and the Caribbean' => %w(
