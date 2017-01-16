@@ -36,7 +36,7 @@ module AppStoreInfo
       'GR' => 'Greece', 'GT' => 'Guatemala', 'GW' => 'Guinea-Bissau', 'GY' => 'Guyana',
       'HK' => 'Hong Kong', 'HN' => 'Honduras', 'HR' => 'Croatia', 'HU' => 'Hungary',
       'ID' => 'Indonesia', 'IE' => 'Ireland', 'IL' => 'Israel', 'IN' => 'India', 'IS' => 'Iceland',
-      'IT' => 'Italy', 'JM' => 'Jamaica',
+      'IT' => 'Italy', 'IZ' => 'Iraq', 'JM' => 'Jamaica',
       'JO' => 'Jordan', 'JP' => 'Japan', 'KE' => 'Kenya', 'KG' => 'Kyrgyzstan', 'KH' => 'Cambodia',
       'KN' => 'St. Kitts and Nevis', 'KR' => 'Republic Of Korea', 'KW' => 'Kuwait',
       'KY' => 'Cayman Islands', 'KZ' => 'Kazakhstan', 'LA' => "Lao People's Democratic Republic",
@@ -49,10 +49,10 @@ module AppStoreInfo
       'NI' => 'Nicaragua', 'NL' => 'Netherlands', 'NO' => 'Norway', 'NP' => 'Nepal',
       'NZ' => 'New Zealand', 'OM' => 'Oman', 'PA' => 'Panama', 'PE' => 'Peru',
       'PG' => 'Papua New Guinea', 'PH' => 'Philippines', 'PK' => 'Pakistan', 'PL' => 'Poland',
-      'PT' => 'Portugal', 'PW' => 'Palau', 'PY' => 'Paraguay', 'QA' => 'Qatar', 'RO' => 'Romania',
-      'RU' => 'Russia', 'RW' => 'Rwanda', 'SA' => 'Saudi Arabia', 'SB' => 'Solomon Islands',
-      'SC' => 'Seychelles', 'SE' => 'Sweden', 'SG' => 'Singapore',
-      'SI' => 'Slovenia', 'SK' => 'Slovakia', 'SL' => 'Sierra Leone',
+      'PS' => 'Palestinian Territory', 'PT' => 'Portugal', 'PW' => 'Palau', 'PY' => 'Paraguay',
+      'QA' => 'Qatar', 'RO' => 'Romania', 'RU' => 'Russia', 'RW' => 'Rwanda',
+      'SA' => 'Saudi Arabia', 'SB' => 'Solomon Islands', 'SC' => 'Seychelles', 'SE' => 'Sweden',
+      'SG' => 'Singapore', 'SI' => 'Slovenia', 'SK' => 'Slovakia', 'SL' => 'Sierra Leone',
       'SN' => 'Senegal', 'SR' => 'Suriname', 'SS' => 'South Sudan',
       'ST' => 'Sao Tome and Principe', 'SV' => 'El Salvador', 'SZ' => 'Swaziland',
       'TC' => 'Turks and Caicos', 'TD' => 'Chad', 'TH' => 'Thailand', 'TJ' => 'Tajikistan',
@@ -71,8 +71,8 @@ module AppStoreInfo
       ),
 
       'Africa, Middle East, and India' => %w(
-        DZ AO AM AZ BH BJ BW BF CM CV TD CG EG ET GM GH GW IN IL JO KE KW LB LS LR MG MW ML MR MU
-        MZ NA NE NG OM QA RW SA SN SC SS SL ZA SZ ST TZ TN UG AE YE ZM ZW
+        DZ AO AM AZ BH BJ BW BF CM CV TD CG EG ET GM GH GW IN IL IZ JO KE KW LB LS LR MG MW ML MR MU
+        MZ NA NE NG OM PS QA RW SA SN SC SS SL ZA SZ ST TZ TN UG AE YE ZM ZW
       ),
 
       'Latin America and the Caribbean' => %w(
