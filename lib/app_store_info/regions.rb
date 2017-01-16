@@ -36,7 +36,7 @@ module AppStoreInfo
       'GR' => 'Greece', 'GT' => 'Guatemala', 'GW' => 'Guinea-Bissau', 'GY' => 'Guyana',
       'HK' => 'Hong Kong', 'HN' => 'Honduras', 'HR' => 'Croatia', 'HU' => 'Hungary',
       'ID' => 'Indonesia', 'IE' => 'Ireland', 'IL' => 'Israel', 'IN' => 'India', 'IS' => 'Iceland',
-      'IT' => 'Italy', 'IZ' => 'Iraq', 'JM' => 'Jamaica',
+      'IT' => 'Italy', 'IQ' => 'Iraq', 'JM' => 'Jamaica',
       'JO' => 'Jordan', 'JP' => 'Japan', 'KE' => 'Kenya', 'KG' => 'Kyrgyzstan', 'KH' => 'Cambodia',
       'KN' => 'St. Kitts and Nevis', 'KR' => 'Republic Of Korea', 'KW' => 'Kuwait',
       'KY' => 'Cayman Islands', 'KZ' => 'Kazakhstan', 'LA' => "Lao People's Democratic Republic",
@@ -71,7 +71,7 @@ module AppStoreInfo
       ),
 
       'Africa, Middle East, and India' => %w(
-        DZ AO AM AZ BH BJ BW BF CM CV TD CG EG ET GM GH GW IN IL IZ JO KE KW LB LS LR MG MW ML MR MU
+        DZ AO AM AZ BH BJ BW BF CM CV TD CG EG ET GM GH GW IN IL IQ JO KE KW LB LS LR MG MW ML MR MU
         MZ NA NE NG OM PS QA RW SA SN SC SS SL ZA SZ ST TZ TN UG AE YE ZM ZW
       ),
 
