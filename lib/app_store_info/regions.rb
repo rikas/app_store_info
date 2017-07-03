@@ -43,14 +43,14 @@ module AppStoreInfo
       'LB' => 'Lebanon', 'LC' => 'Santa Lucia', 'LK' => 'Sri Lanka', 'LR' => 'Liberia',
       'LS' => 'Lesotho', 'LT' => 'Lithuania', 'LU' => 'Luxembourg', 'LV' => 'Latvia',
       'MD' => 'Republic Of Moldova', 'MG' => 'Madagascar', 'MK' => 'Macedonia', 'ML' => 'Mali',
-      'MN' => 'Mongolia', 'MO' => 'Macau', 'MR' => 'Mauritania', 'MS' => 'Montserrat',
-      'MT' => 'Malta', 'MU' => 'Mauritius', 'MW' => 'Malawi', 'MX' => 'Mexico', 'MY' => 'Malaysia',
-      'MZ' => 'Mozambique', 'NA' => 'Namibia', 'NE' => 'Niger', 'NG' => 'Nigeria',
-      'NI' => 'Nicaragua', 'NL' => 'Netherlands', 'NO' => 'Norway', 'NP' => 'Nepal',
-      'NZ' => 'New Zealand', 'OM' => 'Oman', 'PA' => 'Panama', 'PE' => 'Peru',
-      'PG' => 'Papua New Guinea', 'PH' => 'Philippines', 'PK' => 'Pakistan', 'PL' => 'Poland',
-      'PS' => 'Palestinian Territory', 'PT' => 'Portugal', 'PW' => 'Palau', 'PY' => 'Paraguay',
-      'QA' => 'Qatar', 'RO' => 'Romania', 'RU' => 'Russia', 'RW' => 'Rwanda',
+      'MM' => 'Myanmar', 'MN' => 'Mongolia', 'MO' => 'Macau', 'MR' => 'Mauritania',
+      'MS' => 'Montserrat', 'MT' => 'Malta', 'MU' => 'Mauritius', 'MW' => 'Malawi',
+      'MX' => 'Mexico', 'MY' => 'Malaysia', 'MZ' => 'Mozambique', 'NA' => 'Namibia',
+      'NE' => 'Niger', 'NG' => 'Nigeria', 'NI' => 'Nicaragua', 'NL' => 'Netherlands',
+      'NO' => 'Norway', 'NP' => 'Nepal', 'NZ' => 'New Zealand', 'OM' => 'Oman', 'PA' => 'Panama',
+      'PE' => 'Peru', 'PG' => 'Papua New Guinea', 'PH' => 'Philippines', 'PK' => 'Pakistan',
+      'PL' => 'Poland', 'PS' => 'Palestinian Territory', 'PT' => 'Portugal', 'PW' => 'Palau',
+      'PY' => 'Paraguay', 'QA' => 'Qatar', 'RO' => 'Romania', 'RU' => 'Russia', 'RW' => 'Rwanda',
       'SA' => 'Saudi Arabia', 'SB' => 'Solomon Islands', 'SC' => 'Seychelles', 'SE' => 'Sweden',
       'SG' => 'Singapore', 'SI' => 'Slovenia', 'SK' => 'Slovakia', 'SL' => 'Sierra Leone',
       'SN' => 'Senegal', 'SR' => 'Suriname', 'SS' => 'South Sudan',
@@ -81,7 +81,7 @@ module AppStoreInfo
       ),
 
       'Asia Pacific' => %w(
-        AU BT BN KH CN FJ HK ID JP KZ KR KG LA MO MY FM MN NP NZ PK PW PG PH SG SB LK TW TJ TH TM
+        AU BT BN KH CN FJ HK ID JP KZ KR KG LA MO MY FM MM MN NP NZ PK PW PG PH SG SB LK TW TJ TH TM
         UZ VN
       ),
 
