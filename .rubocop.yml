@@ -29,3 +29,7 @@ RSpec/PredicateMatcher:
 # We still need the # coding utf-8 comment for older ruby versions
 Style/Encoding:
   Enabled: false
+
+# Although using .match? makes sense for ruby 2.4+ in previous versions it doesn't work
+Performance/RegexpMatch:
+  Enabled: false

@@ -34,7 +34,7 @@ module AppStoreInfo
     def store_icon_url
       return unless @artwork
 
-      @artwork.match?(/\.(png|jpg|gif)\z/) ? @artwork : nil
+      @artwork =~ /\.(png|jpg|gif)\z/ ? @artwork : nil
     end
 
     private
