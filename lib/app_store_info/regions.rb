@@ -1,4 +1,3 @@
-# coding: utf-8
 module AppStoreInfo
   # Regions maps the App Store regions in different format.
   #
@@ -65,27 +64,27 @@ module AppStoreInfo
     }.freeze
 
     REGIONS = {
-      'Europe' => %w(
+      'Europe' => %w[
         AL AT BY BE BG HR CY CZ DK EE FI FR DE GR HU IS IE IT LV LT LU MK MT MD NL NO PL PT RO RU
         SK SI ES SE CH TR UA GB
-      ),
+      ],
 
-      'Africa, Middle East, and India' => %w(
+      'Africa, Middle East, and India' => %w[
         DZ AO AM AZ BH BJ BW BF CM CV TD CG EG ET GM GH GW IN IL IQ JO KE KW LB LS LR MG MW ML MR MU
         MZ NA NE NG OM PS QA RW SA SN SC SS SL ZA SZ ST TZ TN UG AE YE ZM ZW
-      ),
+      ],
 
-      'Latin America and the Caribbean' => %w(
+      'Latin America and the Caribbean' => %w[
         AI AG AR BS BB BZ BM BO BR KY CL CO CR DM DO EC SV GD GT GY HN JM MX MS NI PA PY PE LC KN
         VC SR TT TC UY VE VG
-      ),
+      ],
 
-      'Asia Pacific' => %w(
+      'Asia Pacific' => %w[
         AU BT BN KH CN FJ HK ID JP KZ KR KG LA MO MY FM MM MN NP NZ PK PW PG PH SG SB LK TW TJ TH TM
         UZ VN
-      ),
+      ],
 
-      'The United States and Canada' => %w(CA US)
+      'The United States and Canada' => %w[CA US]
     }.freeze
 
     # Find a territory by code.

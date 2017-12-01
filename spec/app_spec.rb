@@ -5,7 +5,7 @@ describe App do
   let(:ipad) { described_class.new(json_read('ipad.json')) }
   let(:iphone) { described_class.new(json_read('iphone.json')) }
 
-  context 'iOS Universal app' do
+  context "when it's an iOS Universal app" do
     it 'reads the parameters correctly' do
       expect(universal.id).to eq(306934924)
       expect(universal.name).to eq('Universal app')
@@ -25,7 +25,7 @@ describe App do
       expect(universal.description).to eq('The app description')
       expect(universal.minimum_os_version).to eq('8.0')
       expect(universal.features).to eq(['iosUniversal'])
-      expect(universal.languages).to eq(%w(CA EN FR DE ID IT JA KO PT RU ES TH TR))
+      expect(universal.languages).to eq(%w[CA EN FR DE ID IT JA KO PT RU ES TH TR])
     end
 
     it 'reads the current version parameters correctly' do
@@ -52,7 +52,7 @@ describe App do
     end
   end
 
-  context 'iPhone app' do
+  context "when it's an iPhone app" do
     it 'reads the parameters correctly' do
       expect(iphone.id).to eq(284708449)
       expect(iphone.name).to eq('Urbanspoon')
@@ -99,7 +99,7 @@ describe App do
     end
   end
 
-  context 'iPad app' do
+  context "when it's an iPad app" do
     it 'reads the parameters correctly' do
       expect(ipad.id).to eq(918079650)
       expect(ipad.name).to eq('iPad app')
@@ -117,7 +117,7 @@ describe App do
       expect(ipad.description).to eq('My super iPad app!')
       expect(ipad.minimum_os_version).to eq('7.0')
       expect(ipad.features).to eq([])
-      expect(ipad.languages).to eq(%w(EN PT ES))
+      expect(ipad.languages).to eq(%w[EN PT ES])
     end
 
     it 'reads the current version parameters correctly' do
