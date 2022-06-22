@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.version       = AppStoreInfo::VERSION
   spec.authors       = ['Ricardo Otero']
   spec.email         = ['oterosantos@gmail.com']
-  spec.required_ruby_version = '2.6'
+  spec.required_ruby_version = '~> 2.6'
 
   spec.summary       = 'App Store parser'
   spec.description   = 'Get details about any app in the Apple App Store'
