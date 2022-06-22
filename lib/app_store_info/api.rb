@@ -40,8 +40,8 @@ module AppStoreInfo
       end
 
       json
-    rescue JSON::ParserError => error
-      raise ParseError, error.message
+    rescue JSON::ParserError => e
+      raise ParseError, e.message
     end
   end
 end

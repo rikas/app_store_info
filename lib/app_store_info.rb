@@ -18,7 +18,7 @@ module AppStoreInfo
   end
 
   def self.read_url(url)
-    match = url.match(%r{\Ahttps://itunes.apple.com/(\w+)/.+/?id=?([\d]+)})
+    match = url.match(%r{\Ahttps://itunes.apple.com/(\w+)/.+/?id=?(\d+)})
 
     raise InvalidURLError, 'Invalid App Store URL' unless match
 

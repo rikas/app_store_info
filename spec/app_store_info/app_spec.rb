@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe App do
+describe AppStoreInfo::App do
   let(:universal) { described_class.new(json_read('universal.json')) }
   let(:ipad) { described_class.new(json_read('ipad.json')) }
   let(:iphone) { described_class.new(json_read('iphone.json')) }

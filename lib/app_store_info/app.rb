@@ -15,6 +15,10 @@ module AppStoreInfo
                    features: 'features', languages: 'languageCodesISO2A',
                    app_store_url: 'trackViewUrl'
 
+    class AppVersion
+      attr_accessor :average_user_rating, :user_rating_count, :number, :release_notes
+    end
+
     def initialize(json)
       read_json_accessors(json)
 
@@ -40,7 +44,7 @@ module AppStoreInfo
     private
 
     def read_current_version(json)
-      version = OpenStruct.new
+      version = AppVersion.new
 
       version.average_user_rating = json['averageUserRatingForCurrentVersion']
       version.user_rating_count = json['userRatingCountForCurrentVersion']
